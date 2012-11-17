@@ -1,0 +1,28 @@
+{
+    "name":"itw",
+    "version":"0.0.1",
+    "description":"Images Through Websockets downloading tools.",
+    "main":"./lib/index.js",
+    "author":{
+        "name":"Yarikos",
+        "email":"yarik--@ukr.net",
+        "url":"http://yarikos.com"
+    },
+    "keywords":[
+        "websocket",
+        "image"
+    ],
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/yarikos/itw.git"
+    },
+    "engines":{
+        "node":">=0.8.14"
+    },
+    "dependencies":{
+        "websocket":"*",
+        "http-get":"*",
+        "MD5":"*"
+    },
+    "scripts":{}
+}
